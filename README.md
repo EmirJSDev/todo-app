@@ -7,20 +7,31 @@ A simple, elegant Todo application built with React, TypeScript, Vite, and Mater
 ## 🌟 Features
 
 Add Tasks: Quickly add new tasks to your to-do list.
+
 Manage Tasks: Mark tasks as active or completed.
+
 Filter Tasks: View all, active, or completed tasks with ease.
+
 Delete Tasks: Remove unwanted tasks from the list.
+
 Clear Completed: Clean up completed tasks in one click.
+
 Responsive Design: Built with Material-UI for a clean and modern look.
+
 Fast and Optimized: Powered by Vite for blazing-fast development and build.
 
 ## 🛠️ Tech Stack
 
 Framework: React
+
 Language: TypeScript
+
 Build Tool: Vite
+
 UI Library: Material-UI
+
 Deployment: GitHub Pages
+
 
 ## 🚀 Getting Started
 
