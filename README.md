@@ -1,50 +1,60 @@
-# React + TypeScript + Vite
+## 📝 Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, elegant Todo application built with React, TypeScript, Vite, and Material-UI.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo: 👉 https://emirjsdev.github.io/todo-app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+Add Tasks: Quickly add new tasks to your to-do list.
+Manage Tasks: Mark tasks as active or completed.
+Filter Tasks: View all, active, or completed tasks with ease.
+Delete Tasks: Remove unwanted tasks from the list.
+Clear Completed: Clean up completed tasks in one click.
+Responsive Design: Built with Material-UI for a clean and modern look.
+Fast and Optimized: Powered by Vite for blazing-fast development and build.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🛠️ Tech Stack
 
-- Configure the top-level `parserOptions` property like this:
+Framework: React
+Language: TypeScript
+Build Tool: Vite
+UI Library: Material-UI
+Deployment: GitHub Pages
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🚀 Getting Started
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Follow these steps to set up the project on your local machine:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+1. Clone the repository
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+git clone https://github.com/EmirJSDev/todo-app.git
+
+cd todo-app
+
+2. Install dependencies
+
+npm install
+
+3. Run the development server
+
+npm start
+
+The app will be available at http://localhost:5173.
+
+4. Build for production
+
+npm run build
+
+## 🌐 Deployment
+The project is deployed using GitHub Pages. To redeploy:
+
+npm run deploy
+
+## 🤝 Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvement, please submit a pull request or open an issue.
+
+💡 Author
+Developed by Emir Abdurakhimov
+
+🎉 Thank you for checking out this project!
